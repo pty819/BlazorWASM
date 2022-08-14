@@ -1,5 +1,5 @@
 # BlazorWASM
 blazorwasmpractice
 
-#Blazor on cloudflare  
+deploy a BlazorWASM application on cloudflare  
 just as a try
