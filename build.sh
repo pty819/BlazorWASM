@@ -4,6 +4,5 @@ chmod +x dotnet-install.sh
 ./dotnet-install.sh -c 7.0 -InstallDir ./dotnet
 #./dotnet/dotnet workload install wasm-tools
 ./dotnet/dotnet --version
-./dotnet/dotnet publish -c Release -o output
-#./dotnet/dotnet publish -c Release -o output -p:BlazorEnableCompression=true
+./dotnet/dotnet publish -c Release -o output -p:BlazorEnableCompression=true
 rm output/wwwroot/_framework/*.wasm
